@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.googleapis.com);
+@import url("components/containers.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: "Arimo", sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	}
+h1,h2,h3 {
+	font-family: "Arimo", sans-serif;
+	font-weight: bold;
+	}
+
+
+.banner-img {
+    width: 100px; 
+    height: 50px;      
+   }
+
+
+p {
+  text-align: justify;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+img {
+	height: 150px;
+	width: 150px;
+	border-radius: 20px;
+	}
+
